@@ -48,7 +48,14 @@
    .display {
     font-family: 'Arima', cursive;
     font-size: 5rem;
+    color: #faedcd;
+    text-transform: uppercase;
+    line-height: -0.2rem;
 
+   }
+
+   .header-box {
+    background-color: #000;
    }
     
    .footerBold {
