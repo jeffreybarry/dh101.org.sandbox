@@ -54,7 +54,6 @@
 
    .display {
    /* font-family: 'Arima', cursive; */
-   display: flex;
    font-family: 'Abril Fatface', cursive;
     font-size: 12rem;
     color: #faedcd;
@@ -63,7 +62,6 @@
    }
 
 .display p {
-   margin-bottom: 0 !important;
 }
     
    .footerBold {
