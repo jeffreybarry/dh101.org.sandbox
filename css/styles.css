@@ -47,7 +47,7 @@
 
    .display {
     font-family: 'Arima', cursive;
-    font-size: 5rem;
+    font-size: 12rem;
     color: #faedcd;
     text-transform: uppercase;
     line-height: -0.2rem;
@@ -57,6 +57,7 @@
    .header-box {
     background-color: #000;
     margin-top: 1rem;
+    margin-bottom: 2rem;
     padding: 2rem;
    }
     
