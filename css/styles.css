@@ -46,7 +46,6 @@
     }
 
     .header-box {
-        position: relative;
         background-color: #000;
         margin-top: 1rem;
         margin-bottom: 2rem;
@@ -56,7 +55,6 @@
 
    .display {
    /* font-family: 'Arima', cursive; */
-   position: absolute;
    font-family: 'Abril Fatface', cursive;
     font-size: 12rem;
     color: #faedcd;
