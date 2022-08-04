@@ -46,14 +46,15 @@
     }
 
     .header-box {
+        display: flex;
         background-color: #000;
-        margin-top: 1rem;
-        margin-bottom: 2rem;
+ 
 
        }
 
    .display {
    /* font-family: 'Arima', cursive; */
+   flex-direction: column;
    font-family: 'Abril Fatface', cursive;
     font-size: 12rem;
     color: #faedcd;
@@ -62,6 +63,7 @@
    }
 
 .display p {
+    
 }
     
    .footerBold {
