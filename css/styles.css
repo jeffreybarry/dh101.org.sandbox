@@ -15,9 +15,18 @@
    ---------------------------------------------------------*/
 
    body {
-      
+    background-color: #faedcd;
         font-family: 'Lato', sans-serif;   
-        color: white; 
+        color: #181b0e;
+        @font-face {
+            font-family: 'Anima';
+            src: url('../fonts/Anima/Anima-VariableFont_wght.ttf') format('ttf') tech('variations'),
+                 url('../fonts/Anima/Anima-VariableFont_wght.ttf') format('ttf-variations');
+            font-weight: 100 1000;
+            font-stretch: 25% 151%;
+        }
+       
+
     }
 
     .gradient {
@@ -34,9 +43,15 @@
         font-family: 'Abril Fatface', cursive;
     }
 
-   
+   .display {
+    font-family: 'Arima', cursive;
+    font-size: 5rem;
+
+   }
     
-   
+   .footerBold {
+    font-size: 2rem;
+   }
 
 /* ---------------------------------------------------------
    Print styles
