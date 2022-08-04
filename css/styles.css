@@ -68,7 +68,9 @@ h1.page-heading {
    .display h2 {
    /* font-family: 'Arima', cursive; */
    font-family: 'Abril Fatface', cursive;
-    font-size: 12rem;
+    /* font-size: 12rem; */
+    /* The clamp value handles the typography but not padding around the display element */
+    font-size: clamp(1.5rem, 8vw + 1rem, 12rem);
     color: #faedcd;
     text-transform: uppercase;
     line-height: 9rem;
