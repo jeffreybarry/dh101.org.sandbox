@@ -43,6 +43,7 @@
 
     h1, h2 {
         font-family: 'Abril Fatface', cursive;
+        margin-bottom: 3rem;
     }
 
     .header-box {
@@ -63,7 +64,8 @@
    }
 
 .display p {
-    
+    margin-top: 12rem;
+    margin-bottom: 12rem;
 }
     
    .footerBold {
