@@ -62,7 +62,9 @@
 
    }
 
-
+.display p {
+   margin-bottom: 0 !important;
+}
     
    .footerBold {
     font-size: 2rem;
