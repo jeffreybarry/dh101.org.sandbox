@@ -45,6 +45,13 @@
         font-family: 'Abril Fatface', cursive;
     }
 
+    .header-box {
+        background-color: #000;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        padding: 2rem;
+       }
+
    .display {
     font-family: 'Arima', cursive;
     font-size: 12rem;
@@ -54,12 +61,7 @@
 
    }
 
-   .header-box {
-    background-color: #000;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    padding: 2rem;
-   }
+
     
    .footerBold {
     font-size: 2rem;
