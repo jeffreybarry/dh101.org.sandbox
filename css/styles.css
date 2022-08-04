@@ -18,6 +18,8 @@
     background-color: #faedcd;
         font-family: 'Lato', sans-serif;   
         color: #181b0e;
+        line-height: 2.5vw;
+        letter-spacing: -.02em;
         @font-face {
             font-family: 'Anima';
             src: url('../fonts/Anima/Anima-VariableFont_wght.ttf') format('ttf') tech('variations'),
@@ -52,6 +54,11 @@
    .footerBold {
     font-size: 2rem;
    }
+
+
+.image-title {
+    font-size: 2rem;
+}
 
 /* ---------------------------------------------------------
    Print styles
