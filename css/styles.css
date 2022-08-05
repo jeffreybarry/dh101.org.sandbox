@@ -16,6 +16,10 @@
 
    body {
     background-color: #faedcd;
+    background-image: url("../images/beige-paper.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+
         font-family: 'Lato', sans-serif;   
         color: #181b0e;
         line-height: 2.5vw;
