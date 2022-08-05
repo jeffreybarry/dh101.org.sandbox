@@ -44,6 +44,15 @@
         
 }
 
+
+/* ---------------------------------------------------------
+   Header with black background
+   ---------------------------------------------------------*/
+
+header {
+    margin-bottom: 3rem;
+}
+
 h1 {
     margin-bottom: 3rem;
 }
@@ -53,6 +62,8 @@ h1 {
         font-family: 'Abril Fatface', cursive;
         
     }
+
+
 
 h1.page-heading {
     font-size: 0.8rem;
@@ -81,6 +92,22 @@ h1.page-heading {
    }
 
   
+
+/* ---------------------------------------------------------
+   h2 styles
+   ---------------------------------------------------------*/
+
+.secondTitleReduced {
+font-size: small;
+}
+
+
+
+
+/* ---------------------------------------------------------
+   Footer styles
+   ---------------------------------------------------------*/
+
    .footerBold {
     font-size: 2rem;
    }
@@ -89,6 +116,13 @@ h1.page-heading {
 .image-title {
     font-size: 2rem;
 }
+
+.hr-footer {
+    border-top: 1px dashed;
+}
+
+
+
 
 /* ---------------------------------------------------------
   Media Queries
