@@ -89,10 +89,15 @@ h1.page-heading {
 /* ---------------------------------------------------------
   Media Queries
    ---------------------------------------------------------*/
-
-   @media only screen and (min-width: 35em) {
+   @media only screen and (min-device-width: 320px) and (max-device-width: 1024px)  {
     /* Style adjustments for viewports that meet the condition */
+                /* reduce line height */
+                .display h2 {
+                    line-height: 2.5rem;
+                }
   }
+
+
 
   /* ----------- iPhone X ----------- */
 
@@ -133,6 +138,8 @@ and (orientation: landscape) {
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
+
+    
 }
 
 /* ----------- Retina Screens ----------- */
